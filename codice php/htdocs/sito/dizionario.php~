@@ -1,0 +1,234 @@
+<?
+  require "dbvariabili.php";
+  require "up.php"
+?>
+
+<P ALIGN=CENTER STYLE="page-break-before: always"><FONT FACE="Times, serif"><FONT SIZE=4 STYLE="font-size: 16pt">Dizionario
+dei dati</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT><FONT FACE="Times, serif"><U>Tabella entit&agrave;:</U></FONT></P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<THEAD>
+		<TR VALIGN=TOP>
+			<TH WIDTH=25%>
+				<P ALIGN=CENTER STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">NOME</FONT></P>
+			</TH>
+			<TH WIDTH=25%>
+				<P ALIGN=CENTER STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">DESCRIZIONE</FONT></P>
+			</TH>
+			<TH WIDTH=25%>
+				<P ALIGN=CENTER STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">ATTRIBUTI</FONT></P>
+			</TH>
+			<TH WIDTH=25%>
+				<P ALIGN=CENTER STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">CHIAVE</FONT></P>
+			</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Giocatori</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Informazioni relative ai
+				giocatori. Da notare che l'attributo &ldquo;Squadra&rdquo; &egrave;
+				riferito alla vera squadra di appartenenza del giocatore e non
+				alla fantasquadra.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Nome<BR>Cognome<BR>Ruolo<BR>Valore<BR>Squadra</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Codice</FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantagiornata</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Contiene tutte le
+				fantagiornate gi&agrave; giocate.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<BR>
+				</P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Numero</FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantasquadra</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Informazioni sulle
+				fantasquadre che giocano il fantacampionato.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantallenatore<BR>Password<BR>Maglietta<BR>Fantacrediti<BR>Punti</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Nome</FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Formazioni</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Informazioni sulla formazione
+				schierata da una fantasquadra ad ogni fantagiornata.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Schema</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Codice</FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P ALIGN=LEFT><BR><BR>
+</P>
+<P ALIGN=LEFT><FONT FACE="Times, serif"><U>Tabella relazioni:</U></FONT></P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#000000" CELLPADDING=4 CELLSPACING=0>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<COL WIDTH=64*>
+	<THEAD>
+		<TR VALIGN=TOP>
+			<TH WIDTH=25%>
+				<P STYLE="font-style: normal; font-weight: medium"><FONT SIZE=2 STYLE="font-size: 11pt">NOME</FONT></P>
+			</TH>
+			<TH WIDTH=25%>
+				<P STYLE="font-style: normal; font-weight: medium"><FONT SIZE=2 STYLE="font-size: 11pt">DESCRIZIONE</FONT></P>
+			</TH>
+			<TH WIDTH=25%>
+				<P STYLE="font-style: normal; font-weight: medium"><FONT SIZE=2 STYLE="font-size: 11pt">ATTRIBUTI</FONT></P>
+			</TH>
+			<TH WIDTH=25%>
+				<P STYLE="font-style: normal; font-weight: medium"><FONT SIZE=2 STYLE="font-size: 11pt">ENTITA'
+				COINVOLTE</FONT></P>
+			</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Risultato</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Per ogni fantagiornata
+				associa informazioni sui giocatori relative al loro andamento.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Voto<BR>Goalfatti<BR>Assist<BR>Rigorisbagliati<BR>Autorete<BR>Espulsione<BR>Ammonizioni<BR>Rigoreparato<BR>Goalsubiti</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantagiornata
+				(0,M)<BR>Giocatori (0,N)</FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantacontratto</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Stabilisce i giocatori
+				appartenenti ad una fantasquadra.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<BR>
+				</P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantasquadra
+				(18,18)<BR>Giocatori (0,1)</FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Schiera</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Associa una formazione
+				schierata da una fantasquadra ad ogni fantagiornata.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<BR>
+				</P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Fantagiornata
+				(0,P)<BR>Fantasquadra (0,34)<BR>Formazioni (P,Q)</FONT></P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Giocare</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 9pt">Associa 15 giocatori per ogni
+				formazione.</FONT></P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<BR>
+				</P>
+			</TD>
+			<TD WIDTH=25%>
+				<P ALIGN=LEFT STYLE="font-style: normal; font-weight: medium; text-decoration: none">
+				<FONT SIZE=2 STYLE="font-size: 11pt">Formazioni (15,15)<BR>Giocatori
+				(0,1)</FONT></P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P ALIGN=LEFT><BR><BR>
+</P>
+
+<?
+  require "down.php"
+?>

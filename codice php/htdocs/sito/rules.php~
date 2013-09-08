@@ -1,0 +1,10 @@
+<?
+  require "dbvariabili.php";
+  require "up.php"
+?>
+
+   continua qui
+
+<?
+  require "down.php"
+?>

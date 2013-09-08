@@ -1,0 +1,60 @@
+<?
+  require "dbvariabili.php";
+  require "up.php"
+?>
+
+<P ALIGN=CENTER STYLE="page-break-before: always"><FONT FACE="Times, serif"><FONT SIZE=4 STYLE="font-size: 16pt">Descrizione
+testuale del sistema</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P><FONT FACE="Times, serif">Gli elementi da gestire sono: giocatori,
+fantasquadra, fantagiornata.<BR>Il sistema terr&agrave; conto di
+tutti i giocatori esistenti sul fantamercato, e per ognuno di loro
+associa un voto ad ogni fantagiornata.<BR>Non c&rsquo;&egrave; un
+numero fissato di fantasquadre, ma ce ne possono essere un numero a
+piacere a patto che esse non condividano giocatori con le altre
+fantasquadre.</FONT></P>
+<P><FONT FACE="Times, serif">Ogni fantasquadra &egrave; individuata
+unicamente da un nome e deve avere esattamente 18 giocatori, quindi
+un&rsquo;operazione di compravendita si riduce a scambiare un
+giocatore con un altro disponibile sul fantamercato con lo stesso
+ruolo, diminuendo o aumentando i fantacrediti della squadra in base
+alla differenza di valore dei giocatori.</FONT></P>
+<P><FONT FACE="Times, serif">In ogni momento il database potr&agrave;
+essere interrogato per sapere:</FONT></P>
+<UL>
+	<P><FONT FACE="Times, serif">Il voto di un giocatore a lui assegnato
+	durante una fantagiornata gi&agrave; giocata<BR>La formazione di una
+	fantasquadra durante una fantagiornata gi&agrave; giocata</FONT></P>
+</UL>
+<P><FONT FACE="Times, serif">Inoltre si aggiungono altri requisiti
+funzionali.</FONT></P>
+<P><BR><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Times, serif"><FONT SIZE=4 STYLE="font-size: 16pt">Requisiti
+funzionali</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Requisiti
+funzionali per gli utenti:</FONT></P>
+<UL>
+	<P STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Iscriversi
+	al campionato;<BR>Visualizzare/Modificare la propria
+	formazione;<BR>Visualizzare i giocatori;<BR>Cambiare un giocatore
+	con un altro libero;<BR>Visualizzare la classifica.</FONT></P>
+</UL>
+<P><BR><BR>
+</P>
+<P><FONT FACE="Times, serif">Requisiti funzionali per
+l&rsquo;amministratore:</FONT></P>
+<UL>
+	<P><FONT FACE="Times, serif">Inserire un nuovo giocatore;<BR>Cancellare
+	un giocatore;<BR>Cambiare il valore di un giocatore;<BR>Cancellare
+	una squadra;<BR>Inserire i risultati di una giornata calcistica.</FONT></P>
+</UL>
+<P><BR><BR>
+</P>
+
+<?
+  require "down.php"
+?>

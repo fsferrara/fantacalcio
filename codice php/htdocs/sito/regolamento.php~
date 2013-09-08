@@ -1,0 +1,147 @@
+<?
+  require "dbvariabili.php";
+  require "up.php"
+?>
+
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Times, serif"><FONT SIZE=4 STYLE="font-size: 16pt">Descrizione
+del gioco</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Ogni
+partecipante (fantallenatore) al fantacalcio deve crearsi una
+&ldquo;fantasquadra&rdquo; con i giocatori disponibili in quel
+momento. La fantasquadra si costruisce scegliendo 18 giocatori:</FONT></P>
+<UL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">2
+	portieri</FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">6
+	difensori</FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">6
+	centrocampisti</FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">4
+	attaccanti</FONT></P>
+</UL>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Lo
+scopo del gioco &egrave; realizzare con la propria &ldquo;fantasquadra&rdquo;,
+durante tutte le 34 giornate del campionato, pi&ugrave; punti degli
+avversari nella classifica.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Una
+fantasquadra deve avere sempre 11 giocatori titolari pi&ugrave; una
+riserva formata da:</FONT></P>
+<UL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">1
+	portiere</FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">1
+	difensore</FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">1
+	centrocampista</FONT></P>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">1
+	attaccante</FONT></P>
+</UL>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Logicamente
+i giocatori di riserva diventano titolari nel caso in cui viene a
+mancare un giocatore titolare con lo stesso ruolo.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Ogni
+fantallenatore pu&ograve; cambiare la formazione e la riserva durante
+la settimana e non durante lo svolgimento delle partite. Inoltre si
+pu&ograve; scegliere fra sette moduli:</FONT></P>
+<TABLE WIDTH=652 BORDER=0 CELLPADDING=5 CELLSPACING=0>
+	<COL WIDTH=153>
+	<COL WIDTH=153>
+	<COL WIDTH=153>
+	<COL WIDTH=153>
+	<TR VALIGN=TOP>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">3-4-3</FONT></P>
+		</TD>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">3-5-2</FONT></P>
+		</TD>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">4-5-1</FONT></P>
+		</TD>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">4-4-2</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">4-3-3</FONT></P>
+		</TD>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">5-4-1</FONT></P>
+		</TD>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><FONT FACE="Times, serif">5-3-2</FONT></P>
+		</TD>
+		<TD WIDTH=153>
+			<P ALIGN=CENTER><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Ad
+ogni fantagiornata viene assegnato un voto ad ogni giocatore, e ad
+ogni squadra gli vengono assegnati un numero di punti pari alla somma
+dei voti ottenuti dai propri giocatori titolari in quella giornata.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Il
+fantallenatore ha a disposizione un budget iniziale di 200
+&ldquo;fantacrediti&rdquo; con i quali pu&ograve; comprare i
+giocatori. Nel momento in cui si d&agrave; la conferma di ogni
+operazione di compravendita, i fantacrediti a disposizione
+diminuiscono o aumentano in misura pari al costo del calciatore in
+questione.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Il
+valore di ciascun calciatore (in fantacrediti) &egrave; stabilito
+prima dell'inizio del gioco e pu&ograve; essere aggiornato durante il
+fantacampionato dall&rsquo;amministratore. Potr&agrave; quindi salire
+o scendere secondo il rendimento del giocatore.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">I
+fantacrediti eventualmente risparmiati sono mantenuti dalla
+fantasquadra e possono essere utilizzati per operazioni successive.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">Al
+punteggio di ciascun calciatore vanno aggiunti o sottratti dei punti
+bonus o malus:</FONT></P>
+<UL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">BONUS</FONT></P>
+	<UL>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">+3
+		punti per ogni gol segnato</FONT></P>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">+3
+		punti per ogni rigore parato dal portiere </FONT>
+		</P>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">+
+		1 punto per ogni assist fornito</FONT></P>
+	</UL>
+	<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">MALUS</FONT></P>
+	<UL>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">-3
+		punti per un rigore sbagliato</FONT></P>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">-2
+		punti per ogni autorete</FONT></P>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">-1
+		punto per ogni gol subito dal portiere</FONT></P>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">-1
+		punto per ogni espulsione</FONT></P>
+		<LI><P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Times, serif">-0,5
+		punti per ogni ammonizione</FONT></P>
+	</UL>
+</UL>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P><FONT FACE="Times, serif">Alla fine del fantacampionato vince la
+fantasquadra che avr&agrave; cumulato pi&ugrave; punti.</FONT></P>
+
+<?
+  require "down.php"
+?>

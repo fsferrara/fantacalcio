@@ -1,0 +1,32 @@
+<?
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[1]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[2]',1)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[3]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[4]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[5]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[6]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[7]',1)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[8]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[9]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[10]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[11]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[12]',1)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[13]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[14]',0)";
+    $query = mysql_query($sql) or die(errore());
+    $sql = "INSERT INTO giocare VALUES('$formazione','$g[15]',1)";
+    $query = mysql_query($sql) or die(errore());
+?>

@@ -1,0 +1,20 @@
+########################################################################
+#                                                                      #
+#          Progetto di "Basi di dati e sistemi informativi"            #
+#              Ferrara Francesco Saverio - 566/811                     #
+#                  Gruppo 1 - prof. A. Peron                           #
+#                                                                      #
+########################################################################
+
+Descrizione delle cartelle:
+
+  "codice php":
+    contiene il codice del progetto
+  
+  "codice sql":
+    contiene il dump del database contenente tutti i giocatori del 2004/2005
+    e il codice sql per la creazione delle tabelle
+    
+  "documentazione":
+    contiene la documentazione in formato pdf e in sxw (OpenOffice 1.1.1)
+  
